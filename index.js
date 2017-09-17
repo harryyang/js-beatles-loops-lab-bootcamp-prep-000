@@ -3,4 +3,5 @@ function theBeatlesPlay (musicians, instruments) {
   for (array = 0; array < 10; array++) {
     array.push(`${musicians} plays ${instruments}`)
   }
+  return array;
 }
